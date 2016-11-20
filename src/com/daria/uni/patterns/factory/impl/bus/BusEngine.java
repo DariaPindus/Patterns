@@ -13,11 +13,6 @@ public class BusEngine implements Engine {
         power = 175.0;
     }
 
-    @Override
-    public void CreateEngine() {
-        name = "Bus Engine II192";
-        power = 175.0;
-    }
 
     @Override
     public String toString() {

@@ -9,12 +9,12 @@ import com.daria.uni.patterns.factory.interfaces.CarFactory;
 import com.daria.uni.patterns.factory.interfaces.Engine;
 import com.daria.uni.patterns.factory.interfaces.Wheel;
 
-public class PassengerCarFactory implements CarFactory{
+public class PassengerCarFactory implements CarFactory {
     Body body;
     Engine engine;
     Wheel[] wheels;
 
-    public PassengerCarFactory(){
+    public PassengerCarFactory() {
         createBody();
         createEngine();
         createWheel();

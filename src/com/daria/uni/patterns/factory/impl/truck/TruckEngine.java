@@ -13,11 +13,6 @@ public class TruckEngine implements Engine{
         power = 288.0;
     }
 
-    @Override
-    public void CreateEngine() {
-        name = "Truck Engine SuperPower666";
-        power = 288.0;
-    }
 
     @Override
     public String toString() {

@@ -13,12 +13,6 @@ public class BusBody implements Body{
     }
 
     @Override
-    public void CreateBody() {
-        name = "Bus body. Bogdan";
-        size = new double[]{4.2, 2.0, 1.85};
-    }
-
-    @Override
     public String toString() {
         return "Name: " + name + "; Sizes: " + size;
     }

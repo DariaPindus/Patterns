@@ -13,12 +13,6 @@ public class TruckWheel implements Wheel {
     }
 
     @Override
-    public void CreateWheel() {
-        name = "Truck wheel. Michelene truck";
-        diameter = 45.0;
-    }
-
-    @Override
     public String toString() {
         return "Name: " + name + "; Diameter: " + diameter;
     }

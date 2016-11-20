@@ -12,12 +12,6 @@ public class TruckBody implements Body{
         size = new double[]{4.5, 2.5, 1.85};
     }
 
-    @Override
-    public void CreateBody() {
-        name = "Truck body. Mercedez";
-        size = new double[]{4.5, 2.5, 1.85};
-
-    }
 
     @Override
     public String toString() {

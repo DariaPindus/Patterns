@@ -13,12 +13,6 @@ public class PassengerEngine implements Engine{
     }
 
     @Override
-    public void CreateEngine() {
-        name = "Passenger Engine V6";
-        power = 120.0;
-    }
-
-    @Override
     public String toString() {
         return "Name: " + name + "; Power: " + power;
     }

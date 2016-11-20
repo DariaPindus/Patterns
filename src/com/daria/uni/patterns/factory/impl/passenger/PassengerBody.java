@@ -13,12 +13,6 @@ public class PassengerBody implements Body {
     }
 
     @Override
-    public void CreateBody() {
-        name = "Passenger body. Cabriolet Audi";
-        size = new double[]{2.5, 2.0, 1.6};
-    }
-
-    @Override
     public String toString() {
         return "Name: " + name + "; Sizes: " + size;
     }

@@ -12,11 +12,6 @@ public class PassengerWheel implements Wheel {
         diameter = 22.5;
     }
 
-    @Override
-    public void CreateWheel() {
-        name = "Passenger wheel. BMW Sport wheel";
-        diameter = 22.5;
-    }
 
     @Override
     public String toString() {
