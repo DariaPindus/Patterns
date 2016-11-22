@@ -40,9 +40,5 @@ public class RemoteControl {
         System.out.println("Undo button was bushed");
         undoCommand.undo();
     }
-
-    @Override
-    public String toString() {
-        return "";
-    }
+    
 }
